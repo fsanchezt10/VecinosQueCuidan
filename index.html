@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vecinos que Cuidan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Slab:wght@400;600&display=swap');
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f8fafc;
+    }
+    h1, h2 {
+      font-family: 'Roboto Slab', serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+<!-- Hero con fondo imagen -->
+<section class="relative w-full min-h-[420px] flex items-center justify-center">
+  <img src="https://img.freepik.com/foto-gratis/acto-comunitario-cuidado-bondad-estilo-cinematografico_23-2151205728.jpg"
+    alt="Comunidad que cuida"
+    class="absolute inset-0 w-full h-full object-cover object-center z-0"/>
+  <!-- Overlay eliminado para mostrar la imagen natural -->
+  <div class="relative z-20 max-w-2xl mx-auto px-6 py-16 text-center text-white flex flex-col items-center drop-shadow-[0_2px_10px_rgba(0,0,0,0.7)]">
+    <h1 class="text-4xl sm:text-5xl font-bold mb-6 leading-tight drop-shadow-lg">Vecinos que Cuidan</h1>
+    <p class="text-xl mb-8 drop-shadow-md">Red local de apoyo y compañía entre personas cuidadoras. Combatimos la soledad y el aislamiento de quienes cuidan sin descanso, con soluciones reales y humanas.</p>
+    <a class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-7 py-3 rounded-full shadow-lg transition" href="#contacto">Quiero saber más</a>
+  </div>
+</section>
+
+
+<!-- Qué es -->
+<section class="py-14 px-6 max-w-4xl mx-auto bg-white">
+  <h2 class="text-2xl sm:text-3xl font-semibold text-blue-800 mb-4 text-center">¿Qué es Vecinos que Cuidan?</h2>
+  <p class="text-lg text-gray-700 text-center mb-2">
+    Somos una red de vecinos y vecinas que comparten tiempo, compañía y apoyo para personas cuidadoras no profesionales, ofreciendo soluciones que nacen del propio barrio. Así, quienes cuidan no se sienten solas ni invisibles, y pueden encontrar apoyo cercano y flexible.
+  </p>
+</section>
+
+<!-- Cómo funciona -->
+<section class="py-14 px-6 max-w-4xl mx-auto bg-white">
+  <h2 class="text-2xl sm:text-3xl font-semibold text-blue-800 mb-4 text-center">¿Cómo funciona?</h2>
+  <ol class="text-lg text-gray-700 mb-6 list-decimal pl-6 max-w-2xl mx-auto">
+    <li class="mb-2">El cuidador o cuidadora se registra en la plataforma, indicando sus necesidades y horarios.</li>
+    <li class="mb-2">Vecinos voluntarios pueden ofrecer su tiempo o experiencia en diferentes franjas y tareas.</li>
+    <li class="mb-2">Se coordinan los turnos en un calendario visible para todos, de forma transparente.</li>
+    <li class="mb-2">La red acompaña, comparte experiencias, y reduce la sobrecarga emocional y física de cuidar.</li>
+  </ol>
+  <p class="text-center text-gray-600">La participación es flexible, humana y siempre acompañada.</p>
+</section>
+
+<!-- Calendario visual -->
+<section class="py-14 px-6 max-w-4xl mx-auto bg-white">
+  <h2 class="text-2xl sm:text-3xl font-semibold text-blue-800 mb-6 text-center">Ejemplo de organización de apoyos</h2>
+  <p class="text-lg text-gray-700 text-center mb-6">
+    El calendario semanal permite a cada vecino/a ver quién ofrece ayuda en cada franja, facilitando el intercambio y asegurando descansos. Así, se evita la sobrecarga y se fomenta la corresponsabilidad.
+  </p>
+  <img src="calendario_cuidados_final_sin_corte.png" alt="Calendario colaborativo de cuidados" class="mx-auto w-full max-w-2xl rounded-xl shadow-md">
+</section>
+
+<!-- Testimonios -->
+<section class="py-14 px-6 max-w-4xl mx-auto bg-white">
+  <h2 class="text-2xl sm:text-3xl font-semibold text-blue-800 mb-6 text-center">Historias que inspiran</h2>
+  <div class="flex flex-col md:flex-row gap-6 justify-center">
+    <div class="flex-1 bg-blue-50 p-6 rounded-xl shadow text-left">
+      <p class="text-gray-700 italic mb-3">"Gracias a la red, he podido tener tiempo para mí, hablar con otros en mi situación y sentirme menos sola. Ahora cuidar no significa renunciar a mi vida."</p>
+      <p class="font-semibold text-blue-800">– Marta, cuidadora joven</p>
+    </div>
+    <div class="flex-1 bg-blue-50 p-6 rounded-xl shadow text-left">
+      <p class="text-gray-700 italic mb-3">"Pensé que nadie valoraba lo que hacía, pero con Vecinos que Cuidan me he sentido acompañado y entendido. Compartimos el peso y las alegrías."</p>
+      <p class="font-semibold text-blue-800">– Manuel, cuidador mayor</p>
+    </div>
+  </div>
+</section>
+
+<!-- Galería de imágenes -->
+<section class="py-14 px-6 max-w-4xl mx-auto bg-white">
+  <h2 class="text-2xl sm:text-3xl font-semibold text-blue-800 mb-6 text-center">Nuestra comunidad en imágenes</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 gap-5">
+    <img class="w-full h-40 object-cover rounded-lg" src="https://img.freepik.com/foto-gratis/mujer-abuelos-que-trabajan-juntos-campo_23-2149518779.jpg"/>
+    <img class="w-full h-40 object-cover rounded-lg" src="https://img.freepik.com/foto-gratis/mujeres-que-trabajan-juntas-campo_23-2149518828.jpg"/>
+    <img class="w-full h-40 object-cover rounded-lg" src="https://img.freepik.com/foto-gratis/amigo-tiro-completo-ayudando-hombre-discapacitado_23-2149391999.jpg"/>
+    <img class="w-full h-40 object-cover rounded-lg" src="https://img.freepik.com/foto-gratis/gente-reune-discute-vecindario_23-2149447151.jpg"/>
+    <img class="w-full h-40 object-cover rounded-lg" src="https://img.freepik.com/foto-gratis/pareja-lesbianas-divirtiendose-juntos_23-2149322127.jpg"/>
+    <img class="w-full h-40 object-cover rounded-lg" src="https://img.freepik.com/foto-gratis/paciente-edad-avanzada-que-sufre-parkinson_23-2149370438.jpg"/>
+  </div>
+</section>
+
+<!-- Formulario de contacto -->
+<section class="py-14 px-6 max-w-4xl mx-auto bg-white" id="contacto">
+  <h2 class="text-2xl sm:text-3xl font-semibold text-blue-800 mb-4 text-center">¿Quieres más información?</h2>
+  <p class="text-lg text-gray-700 text-center mb-6">Déjanos tus datos y te contactaremos para resolver cualquier duda o invitarte a nuestras próximas reuniones.</p>
+  <form action="https://formspree.io/f/moqgzogj" method="POST" class="max-w-lg mx-auto bg-blue-50 p-8 rounded-xl shadow space-y-5">
+    <label class="block">
+      <span class="block mb-2 text-blue-800 font-semibold">Nombre</span>
+      <input type="text" name="nombre" required class="w-full border border-gray-300 p-3 rounded"/>
+    </label>
+    <label class="block">
+      <span class="block mb-2 text-blue-800 font-semibold">Correo electrónico</span>
+      <input type="email" name="email" required class="w-full border border-gray-300 p-3 rounded"/>
+    </label>
+    <label class="block">
+      <span class="block mb-2 text-blue-800 font-semibold">Mensaje</span>
+      <textarea name="mensaje" rows="4" required class="w-full border border-gray-300 p-3 rounded"></textarea>
+    </label>
+    <button type="submit" class="w-full bg-blue-700 text-white px-6 py-3 rounded font-semibold hover:bg-blue-800 transition">Enviar</button>
+  </form>
+  <p class="text-center mt-6 text-gray-700">
+    O escríbenos a: 
+    <a class="underline font-semibold" href="mailto:fsanchezt@yahoo.es">fsanchezt@yahoo.es</a>
+  </p>
+</section>
+
+<footer class="py-6 bg-gray-100 text-center text-sm text-gray-600">
+  &copy; 2024 Vecinos que Cuidan. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
